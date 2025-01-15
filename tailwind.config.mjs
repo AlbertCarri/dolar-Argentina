@@ -5,6 +5,7 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "media",
   theme: {
     extend: {
       colors: {
@@ -15,3 +16,7 @@ export default {
   },
   plugins: [],
 };
+
+// hola, como estas?
+// necesito ideas para hacer alguna app 
+// 
