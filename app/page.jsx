@@ -3,7 +3,7 @@
 import DrawDolar from "@/components/DrawDolar";
 
 export default async function Home() {
-  const response = await fetch("https://dolarapi.com/v1/dolares");
+  const response = await fetch("https://dolarapi.com/v1/dolares",{ cache: 'no-store' });
   if (!response.ok)
     return (
       <>
